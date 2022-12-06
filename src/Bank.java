@@ -42,6 +42,7 @@ public class Bank
     public void vendorDeposit(int depositAmount)
     {
         vendorAccountBalance += depositAmount;
+        onHandCash += depositAmount;
     }
 
     /** Utility method to compare the balance of two credit cards; returns the
