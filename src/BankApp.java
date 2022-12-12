@@ -13,7 +13,6 @@ public class BankApp {
         bunsWithHoles = new BagelShop(shop, inventory, price, laScam);
         firstCard = new CreditCard(this.name, cardPin);
     }
-
     public void choices(int imDyingItsLateHairLineRetreating) {
         int condition = 15;
         while (condition != 15) {
